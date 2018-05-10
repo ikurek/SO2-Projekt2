@@ -1,4 +1,4 @@
-FILES = main.cpp Message.cpp Message.h
+FILES = main.cpp
 
 all:
 	g++ -g -std=c++11 -o main $(FILES) -pthread -lncurses
